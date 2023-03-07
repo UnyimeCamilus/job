@@ -1,0 +1,64 @@
+.main-container{
+    background-color:hsl(180, 52%, 96%);
+    height: 100vh;
+} 
+
+
+
+
+.container{
+    position: absolute;
+    top:120px;
+    right: 20rem;
+    /* left: 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom:50px;
+}
+.container button{
+    color: hsl(180, 29%, 50%) ;
+    background-color: hsl(180, 31%, 95%);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+
+}
+.btn{
+   border: none;
+   color:hsl(180, 29%, 50%) ;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top:30px;
+    padding: 20px;
+}
+.logo_tab{
+    display: flex;
+}
+.logo svg{
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.log_1 button{
+    color: hsl(180, 29%, 50%);
+    border: none;
+    border-radius: 10px;
+}
+.list .log_1 .list_btn{ 
+    color:hsl(180, 29%, 50%) ;
+}
+ 
